@@ -23,12 +23,12 @@ export default function Index() {
         autoPlay
         ref={animation}
         style={{
-          width: 200,
-          height: 200,
+          width: 400,
+          height: 400,
           backgroundColor: '#eee',
         }}
         // Find more Lottie files at https://lottiefiles.com/featured
-        source={require('../assets/check-animation.json')}
+        source={require('../assets/meditation-animation.json')}
       />
       <View style={styles.buttonContainer}>
         <Button
